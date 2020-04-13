@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+
+body{
+    background-color:black;
+
+}
+.vid{
+    position: relative;
+   
+
+    min-width:  100%;
+    min-height: 500px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+h1 {
+    color: tomato;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+}
+p{
+
+    color:#69f0ae;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Noto Serif JP', serif;
+}
+h2{
+    color: tomato;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 27px; 
+}
+
+h3 {
+    border-right: solid 3px rgba(0,255,0,.75);
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 20px;
+    color: rgba(255,255,255,.70);
+    margin: 0 auto;
+  }
+  
+  /* Animation */
+  h3 {
+    animation: animated-text 4s steps(29,end) infinite,
+               animated-cursor 600ms steps(29,end) infinite;
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0%;}
+    to{width: 13%;}
+  }
+  
+  /* cursor animations */
+  
+  @keyframes animated-cursor{
+    from{border-right-color: rgba(0,255,0,.75);}
+    to{border-right-color: transparent;}
+  }
+  span{
+      color: #d500f9;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Noto Serif JP', serif;
+  }
+  button{
+    color:tomato;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 35px;
+    font-family: 'Noto Serif JP', serif;
+    background-color: black;
+    width: 50%;
+    font-family: 'Merienda', cursive;
+    border: solid tomato;
+    margin-top: 50px;
+  }
